@@ -1,0 +1,19 @@
+[project]
+name = "tana_data_extractor"
+version = "0.1.0"
+description = "Simple Script to extract data from published tana tables"
+authors = [
+    {name = "Friedolito",email = "j.friedrich-stein@gmx.de"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bs4 (>=0.0.2,<0.0.3)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "requests (>=2.32.5,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
